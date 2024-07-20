@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 1em;
+    width: 300px;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+    margin: 1em 0;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header, .card, footer {
+    animation: fadeIn 2s ease-in;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Welcome to AI World</h1>
+        <p>Exploring the future with Artificial Intelligence</p>
+    </header>
+    <section class="content">
+        <div class="card">
+            <img src="ai-image1.jpg" alt="AI Image 1">
+            <h2>Machine Learning</h2>
+            <p>Discover the power of algorithms that improve automatically through experience.</p>
+        </div>
+        <div class="card">
+            <img src="ai-image2.jpg" alt="AI Image 2">
+            <h2>Neural Networks</h2>
+            <p>Understand the network of neurons that mimic the human brain to solve complex problems.</p>
+        </div>
+        <div class="card">
+            <img src="ai-image3.jpg" alt="AI Image 3">
+            <h2>Natural Language Processing</h2>
+            <p>Learn how AI understands and responds to human language.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 AI Webpage. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
