@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Classification</title>
+    <title>Market Direction Predictor Based on News Sentiment</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -128,15 +128,15 @@
     </div>
 
     <div class="container">
-        <h2>Email Classification</h2>
+        <h3>Market Direction Predictor Based on News Sentiment</h3>
         <form method="post">
         {% csrf_token %}
             <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message"><h4>Message</h4></label>
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
             <div class="form-group">
-                <button type="submit">Classify Email</button>
+                <button type="submit">Classify Market </button>
             </div>
         </form>
     </div>
